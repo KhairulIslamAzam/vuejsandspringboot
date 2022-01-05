@@ -1,4 +1,4 @@
-package com.bs23.controller;
+package com.bs23.controller.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

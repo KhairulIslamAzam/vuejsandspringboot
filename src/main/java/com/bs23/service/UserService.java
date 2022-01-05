@@ -29,4 +29,8 @@ public class UserService {
     public User getUserByName(String name){
         return this.userRepository.findByFirstName(name).get();
     }
+
+    public void deleteById(Long id){
+        this.userRepository.deleteById(id);
+    }
 }
